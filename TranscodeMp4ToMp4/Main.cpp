@@ -341,6 +341,8 @@ HRESULT CreateTopologyNodeSink(IMFMediaSink* pMediaSink, IMFTopologyNode** ppVid
 	
 	hr = pMediaSink->GetStreamSinkCount(&dwCount);
 	
+	if(FAILED(hr)){ goto done; }
+	
 	for(DWORD dwIndex = 0; dwIndex < dwCount; dwIndex++){
 		
 		hr = pMediaSink->GetStreamSinkByIndex(dwIndex, &pStreamSink);
@@ -371,8 +373,6 @@ HRESULT CreateTopologyNodeSink(IMFMediaSink* pMediaSink, IMFTopologyNode** ppVid
 		
 		SAFE_RELEASE(pStreamSink);
 	}
-	
-	if(FAILED(hr)){ goto done; }
 
 done:
 	
