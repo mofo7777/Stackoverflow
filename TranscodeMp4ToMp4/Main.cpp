@@ -32,29 +32,29 @@ HRESULT RunMediaSession(IMFMediaSession*);
 
 template <class T> inline void SAFE_RELEASE(T*& p){
 
-		if(p){
-				p->Release();
-				p = NULL;
-		}
+	if(p){
+		p->Release();
+		p = NULL;
+	}
 }
 
 void main() {
 
-		HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE);
+	HRESULT hr = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE);
+
+	if(SUCCEEDED(hr)) {
+
+		hr = MFStartup(MF_VERSION, MFSTARTUP_LITE);
 
 		if(SUCCEEDED(hr)) {
 
-				hr = MFStartup(MF_VERSION, MFSTARTUP_LITE);
+			hr = ProcessConverter(MP4_SOURCE_VIDEO_MEDIA_FILE);
 
-				if(SUCCEEDED(hr)) {
-
-						hr = ProcessConverter(MP4_SOURCE_VIDEO_MEDIA_FILE);
-
-						hr = MFShutdown();
-				}
-
-				CoUninitialize();
+			hr = MFShutdown();
 		}
+
+		CoUninitialize();
+	}
 }
 
 HRESULT ProcessConverter(LPCWSTR wszVideoFile){
