@@ -9,15 +9,15 @@
 // Because DllMain.cpp contains external objects, you will see "FAKE" memory leaks.
 #ifdef _DEBUG
 
-  class CExternTrace{
+class CExternTrace{
+	
+public:
+	
+	CExternTrace(){ TRACE_INIT(); };
+	~CExternTrace(){ TRACE_CLOSE(); };
+};
 
-  		public:
-
-						CExternTrace(){ TRACE_INIT(); };
-						~CExternTrace(){ TRACE_CLOSE(); };
-		};
-		
-		CExternTrace cExternTrace;
+CExternTrace cExternTrace;
 
 #endif
 
