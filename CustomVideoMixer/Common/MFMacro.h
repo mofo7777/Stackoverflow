@@ -7,33 +7,33 @@
 #ifndef MF_SAFE_RELEASE
 #define MF_SAFE_RELEASE
 template <class T> inline void SAFE_RELEASE(T*& p){
-
-		if(p){
-				p->Release();
-				p = NULL;
-		}
+	
+	if(p){
+		p->Release();
+		p = NULL;
+	}
 }
 #endif
 
 #ifndef MF_SAFE_DELETE
 #define MF_SAFE_DELETE
 template<class T> inline void SAFE_DELETE(T*& p){
-
-		if(p){
-				delete p;
-				p = NULL;
-		}
+	
+	if(p){
+		delete p;
+		p = NULL;
+	}
 }
 #endif
 
 #ifndef MF_SAFE_DELETE_ARRAY
 #define MF_SAFE_DELETE_ARRAY
 template<class T> inline void SAFE_DELETE_ARRAY(T*& p){
-
-		if(p){
-				delete[] p;
-				p = NULL;
-		}
+	
+	if(p){
+		delete[] p;
+		p = NULL;
+	}
 }
 #endif
 
