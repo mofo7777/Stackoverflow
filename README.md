@@ -12,6 +12,10 @@ In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and 
 
 ![Custom Video Mixer](./Image/CustomVideoMixer.jpg)
 
+## ScreenCaptureEncode
+
+This program takes a screenshot using Directx9, and create a mp4 video file with Mediafoundation API.
+
 ## TranscodeMp4ToMp4
 This program transcode a mp4 video file into a new mp4 file. There is no real encoding process, because output file has the same format as input file.
 The concept was to show how to setup IMFTopologyNode for both audio and video.
