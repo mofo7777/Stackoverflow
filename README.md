@@ -1,6 +1,7 @@
 # Stackoverflow
 All source codes I've provided on stackoverflow as an answer, usually under tags ms-media-foundation.
 
+
 ## CustomVideoMixer
 This program shows the basic essentials for implementing a custom video mixer, to be used by a media session.
 
@@ -12,11 +13,13 @@ In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and 
 
 ![Custom Video Mixer](./Image/CustomVideoMixer.jpg)
 
+
 ## ScreenCaptureEncode
 
 This program takes a screenshot using Directx9, and create a mp4 video file with Mediafoundation API.
 
 In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT.
+
 
 ## TranscodeMp4ToMp4
 This program transcode a mp4 video file into a new mp4 file. There is no real encoding process, because output file has the same format as input file.
