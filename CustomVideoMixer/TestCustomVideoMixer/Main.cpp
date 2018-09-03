@@ -222,8 +222,7 @@ void FreeMediaObject() {
 		
 		DWORD dwWaitResult = WaitForSingleObject(g_hSessionEvent, 10000);
 		
-		if(dwWaitResult == WAIT_TIMEOUT)
-		{
+		if(dwWaitResult == WAIT_TIMEOUT) {
 			assert(FALSE);
 		}
 	}
