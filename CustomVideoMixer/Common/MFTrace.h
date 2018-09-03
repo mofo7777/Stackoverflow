@@ -341,109 +341,109 @@ inline LPCWSTR MFErrorString(HRESULT hr){
 		RETURN_STRING(E_ABORT);
 		RETURN_STRING(E_ACCESSDENIED);
 		RETURN_STRING(E_PENDING);
-
-    default:
-						{
-								HRESULT hrc = HRESULT_CODE(hr);
-
-								switch(hrc){
-				
-										RETURN_STRING(ERROR_FILE_NOT_FOUND);
-				      RETURN_STRING(ERROR_PATH_NOT_FOUND);
-				      RETURN_STRING(ERROR_ACCESS_DENIED);
-				      RETURN_STRING(ERROR_INVALID_HANDLE);
-				      RETURN_STRING(ERROR_INVALID_ACCESS);
-				      RETURN_STRING(ERROR_INVALID_DATA);
-				      RETURN_STRING(ERROR_SYSTEM_DEVICE_NOT_FOUND);
-
-										default:
-						      return L"Unknown hresult";
-								}
-						}
+			
+		default:
+		{
+			HRESULT hrc = HRESULT_CODE(hr);
+			
+			switch(hrc){
+					
+				RETURN_STRING(ERROR_FILE_NOT_FOUND);
+				RETURN_STRING(ERROR_PATH_NOT_FOUND);
+				RETURN_STRING(ERROR_ACCESS_DENIED);
+				RETURN_STRING(ERROR_INVALID_HANDLE);
+				RETURN_STRING(ERROR_INVALID_ACCESS);
+				RETURN_STRING(ERROR_INVALID_DATA);
+				RETURN_STRING(ERROR_SYSTEM_DEVICE_NOT_FOUND);
+					
+				default:
+					return L"Unknown hresult";
+			}
 		}
+	}
 }
 
 inline LPCWSTR MFEventString(MediaEventType evType){
-
-		switch(evType){
-
-				RETURN_STRING(MEError);
-				RETURN_STRING(MEExtendedType);
-				RETURN_STRING(MESessionTopologySet);
-				RETURN_STRING(MESessionTopologiesCleared);
-				RETURN_STRING(MESessionStarted);
-				RETURN_STRING(MESessionPaused);
-				RETURN_STRING(MESessionStopped);
-				RETURN_STRING(MESessionClosed);
-				RETURN_STRING(MESessionEnded);
-				RETURN_STRING(MESessionRateChanged);
-				RETURN_STRING(MESessionScrubSampleComplete);
-				RETURN_STRING(MESessionCapabilitiesChanged);
-				RETURN_STRING(MESessionTopologyStatus);
-				RETURN_STRING(MESessionNotifyPresentationTime);
-				RETURN_STRING(MENewPresentation);
-				RETURN_STRING(MELicenseAcquisitionStart);
-				RETURN_STRING(MELicenseAcquisitionCompleted);
-				RETURN_STRING(MEIndividualizationStart);
-				RETURN_STRING(MEIndividualizationCompleted);
-				RETURN_STRING(MEEnablerProgress);
-				RETURN_STRING(MEEnablerCompleted);
-				RETURN_STRING(MEPolicyError);
-				RETURN_STRING(MEPolicyReport);
-				RETURN_STRING(MEBufferingStarted);
-				RETURN_STRING(MEBufferingStopped);
-				RETURN_STRING(MEConnectStart);
-				RETURN_STRING(MEConnectEnd);
-				RETURN_STRING(MEReconnectStart);
-				RETURN_STRING(MEReconnectEnd);
-				RETURN_STRING(MERendererEvent);
-				RETURN_STRING(MESessionStreamSinkFormatChanged);
-				RETURN_STRING(MESourceStarted);
-				RETURN_STRING(MEStreamStarted);
-				RETURN_STRING(MESourceSeeked);
-				RETURN_STRING(MEStreamSeeked);
-				RETURN_STRING(MENewStream);
-				RETURN_STRING(MEUpdatedStream);
-				RETURN_STRING(MESourceStopped);
-				RETURN_STRING(MEStreamStopped);
-				RETURN_STRING(MESourcePaused);
-				RETURN_STRING(MEStreamPaused);
-				RETURN_STRING(MEEndOfPresentation);
-				RETURN_STRING(MEEndOfStream);
-				RETURN_STRING(MEMediaSample);
-				RETURN_STRING(MEStreamTick);
-				RETURN_STRING(MEStreamThinMode);
-				RETURN_STRING(MEStreamFormatChanged);
-				RETURN_STRING(MESourceRateChanged);
-				RETURN_STRING(MEEndOfPresentationSegment);
-				RETURN_STRING(MESourceCharacteristicsChanged);
-				RETURN_STRING(MESourceRateChangeRequested);
-				RETURN_STRING(MESourceMetadataChanged);
-				RETURN_STRING(MESequencerSourceTopologyUpdated);
-				RETURN_STRING(MEStreamSinkStarted);
-				RETURN_STRING(MEStreamSinkStopped);
-				RETURN_STRING(MEStreamSinkPaused);
-				RETURN_STRING(MEStreamSinkRateChanged);
-				RETURN_STRING(MEStreamSinkRequestSample);
-				RETURN_STRING(MEStreamSinkMarker);
-				RETURN_STRING(MEStreamSinkPrerolled);
-				RETURN_STRING(MEStreamSinkScrubSampleComplete);
-				RETURN_STRING(MEStreamSinkFormatChanged);
-				RETURN_STRING(MEStreamSinkDeviceChanged);
-				RETURN_STRING(MEQualityNotify);
-				RETURN_STRING(MESinkInvalidated);
-				RETURN_STRING(MEAudioSessionNameChanged);
-				RETURN_STRING(MEAudioSessionVolumeChanged);
-				RETURN_STRING(MEAudioSessionDeviceRemoved);
-				RETURN_STRING(MEAudioSessionServerShutdown);
-				RETURN_STRING(MEAudioSessionGroupingParamChanged);
-				RETURN_STRING(MEAudioSessionIconChanged);
-				RETURN_STRING(MEAudioSessionFormatChanged);
-				RETURN_STRING(MEAudioSessionDisconnected);
-				RETURN_STRING(MEAudioSessionExclusiveModeOverride);
-				RETURN_STRING(MEPolicyChanged);
-				RETURN_STRING(MEContentProtectionMessage);
-				RETURN_STRING(MEPolicySet);
+	
+	switch(evType){
+			
+		RETURN_STRING(MEError);
+		RETURN_STRING(MEExtendedType);
+		RETURN_STRING(MESessionTopologySet);
+		RETURN_STRING(MESessionTopologiesCleared);
+		RETURN_STRING(MESessionStarted);
+		RETURN_STRING(MESessionPaused);
+		RETURN_STRING(MESessionStopped);
+		RETURN_STRING(MESessionClosed);
+		RETURN_STRING(MESessionEnded);
+		RETURN_STRING(MESessionRateChanged);
+		RETURN_STRING(MESessionScrubSampleComplete);
+		RETURN_STRING(MESessionCapabilitiesChanged);
+		RETURN_STRING(MESessionTopologyStatus);
+		RETURN_STRING(MESessionNotifyPresentationTime);
+		RETURN_STRING(MENewPresentation);
+		RETURN_STRING(MELicenseAcquisitionStart);
+		RETURN_STRING(MELicenseAcquisitionCompleted);
+		RETURN_STRING(MEIndividualizationStart);
+		RETURN_STRING(MEIndividualizationCompleted);
+		RETURN_STRING(MEEnablerProgress);
+		RETURN_STRING(MEEnablerCompleted);
+		RETURN_STRING(MEPolicyError);
+		RETURN_STRING(MEPolicyReport);
+		RETURN_STRING(MEBufferingStarted);
+		RETURN_STRING(MEBufferingStopped);
+		RETURN_STRING(MEConnectStart);
+		RETURN_STRING(MEConnectEnd);
+		RETURN_STRING(MEReconnectStart);
+		RETURN_STRING(MEReconnectEnd);
+		RETURN_STRING(MERendererEvent);
+		RETURN_STRING(MESessionStreamSinkFormatChanged);
+		RETURN_STRING(MESourceStarted);
+		RETURN_STRING(MEStreamStarted);
+		RETURN_STRING(MESourceSeeked);
+		RETURN_STRING(MEStreamSeeked);
+		RETURN_STRING(MENewStream);
+		RETURN_STRING(MEUpdatedStream);
+		RETURN_STRING(MESourceStopped);
+		RETURN_STRING(MEStreamStopped);
+		RETURN_STRING(MESourcePaused);
+		RETURN_STRING(MEStreamPaused);
+		RETURN_STRING(MEEndOfPresentation);
+		RETURN_STRING(MEEndOfStream);
+		RETURN_STRING(MEMediaSample);
+		RETURN_STRING(MEStreamTick);
+		RETURN_STRING(MEStreamThinMode);
+		RETURN_STRING(MEStreamFormatChanged);
+		RETURN_STRING(MESourceRateChanged);
+		RETURN_STRING(MEEndOfPresentationSegment);
+		RETURN_STRING(MESourceCharacteristicsChanged);
+		RETURN_STRING(MESourceRateChangeRequested);
+		RETURN_STRING(MESourceMetadataChanged);
+		RETURN_STRING(MESequencerSourceTopologyUpdated);
+		RETURN_STRING(MEStreamSinkStarted);
+		RETURN_STRING(MEStreamSinkStopped);
+		RETURN_STRING(MEStreamSinkPaused);
+		RETURN_STRING(MEStreamSinkRateChanged);
+		RETURN_STRING(MEStreamSinkRequestSample);
+		RETURN_STRING(MEStreamSinkMarker);
+		RETURN_STRING(MEStreamSinkPrerolled);
+		RETURN_STRING(MEStreamSinkScrubSampleComplete);
+		RETURN_STRING(MEStreamSinkFormatChanged);
+		RETURN_STRING(MEStreamSinkDeviceChanged);
+		RETURN_STRING(MEQualityNotify);
+		RETURN_STRING(MESinkInvalidated);
+		RETURN_STRING(MEAudioSessionNameChanged);
+		RETURN_STRING(MEAudioSessionVolumeChanged);
+		RETURN_STRING(MEAudioSessionDeviceRemoved);
+		RETURN_STRING(MEAudioSessionServerShutdown);
+		RETURN_STRING(MEAudioSessionGroupingParamChanged);
+		RETURN_STRING(MEAudioSessionIconChanged);
+		RETURN_STRING(MEAudioSessionFormatChanged);
+		RETURN_STRING(MEAudioSessionDisconnected);
+		RETURN_STRING(MEAudioSessionExclusiveModeOverride);
+		RETURN_STRING(MEPolicyChanged);
+		RETURN_STRING(MEContentProtectionMessage);
+		RETURN_STRING(MEPolicySet);
 
 		default:
 				return L"Unknown event";
