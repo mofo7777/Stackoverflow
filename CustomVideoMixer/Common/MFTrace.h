@@ -444,26 +444,26 @@ inline LPCWSTR MFEventString(MediaEventType evType){
 		RETURN_STRING(MEPolicyChanged);
 		RETURN_STRING(MEContentProtectionMessage);
 		RETURN_STRING(MEPolicySet);
-
+			
 		default:
-				return L"Unknown event";
-		}
+			return L"Unknown event";
+	}
 }
 
 inline LPCWSTR MFTopologyStatusString(MF_TOPOSTATUS status){
-
-		switch(status){
-
-				RETURN_STRING(MF_TOPOSTATUS_INVALID);
-				RETURN_STRING(MF_TOPOSTATUS_READY);
-				RETURN_STRING(MF_TOPOSTATUS_STARTED_SOURCE);
-				RETURN_STRING(MF_TOPOSTATUS_DYNAMIC_CHANGED);
-				RETURN_STRING(MF_TOPOSTATUS_SINK_SWITCHED);
-				RETURN_STRING(MF_TOPOSTATUS_ENDED);
-
+	
+	switch(status){
+			
+		RETURN_STRING(MF_TOPOSTATUS_INVALID);
+		RETURN_STRING(MF_TOPOSTATUS_READY);
+		RETURN_STRING(MF_TOPOSTATUS_STARTED_SOURCE);
+		RETURN_STRING(MF_TOPOSTATUS_DYNAMIC_CHANGED);
+		RETURN_STRING(MF_TOPOSTATUS_SINK_SWITCHED);
+		RETURN_STRING(MF_TOPOSTATUS_ENDED);
+			
 		default:
-				return L"Unknown topology status";
-		}
+			return L"Unknown topology status";
+	}
 }
 
 #else
