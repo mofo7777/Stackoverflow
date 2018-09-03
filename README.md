@@ -4,7 +4,7 @@ All source codes I've provided on stackoverflow as an answer, usually under tags
 ## CustomVideoMixer
 This program shows the basic essentials for implementing a custom video mixer, to be used by a media session.
 
-You must register the CustomVideoMixer.dll with this command in admin mode: regsrv32 CustomVideoMixer.dll.
+You must register the CustomVideoMixer.dll with this command, and with the administrator rights : regsrv32 CustomVideoMixer.dll.
 
 In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and a copy of itself. the two videos use NV12 video format as input. therefore, there is no real alpha mix, but both videos can be displayed next to each other, as the picture below.
 
