@@ -14,13 +14,11 @@ In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and 
 
 ## FrameRateConverterDSP
 
-This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConvertDmo), using a Source Reader. You can change the frame rate of a video stream. For example, if the video has 30 fps, you can get 60 fps.
+This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConvertDmo), using a Source Reader. You can change the frame rate of a video stream. For example, if the video has 30 fps, you can get 60 fps. This program works well with Wildlife.wmv video file from Microsoft. For mp4 files, the Frame Rate Converter DSP crashes or we need to handle MF_SOURCE_READERF_NATIVEMEDIATYPECHANGED.
 
 ## ScreenCaptureEncode
 
-This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API.
-
-In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
+This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API. In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
 
 ## TranscodeMp4ToMp4
 This program transcode a mp4 video file into a new mp4 file. There is no real encoding process, because output file has the same format as input file.
