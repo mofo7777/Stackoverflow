@@ -3,7 +3,7 @@ All source codes I've provided on stackoverflow as an answer, usually under tags
 
 In the programs below, some values are harcoded, like video file path for example :
 
-#define VIDEO_FILE L"C:\\Users\\Public\\Videos\\Sample Videos\\Wildlife.wmv"
+#define VIDEO_FILE L"C:\\\\Users\\\\Public\\\\Videos\\\\Sample Videos\\\\Wildlife.wmv"
 
 Dont't forget to change them, if you use a different video file, in a different path.
 
