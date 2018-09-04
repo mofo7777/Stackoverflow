@@ -1,6 +1,13 @@
 # Stackoverflow
 All source codes I've provided on stackoverflow as an answer, usually under tags ms-media-foundation.
 
+In the programs below, some values are harcoded, like video file path for example :
+
+#define VIDEO_FILE L"C:\\Users\\Public\\Videos\\Sample Videos\\Wildlife.wmv"
+
+Dont't forget to change them, if you use a different video file, in a different path.
+
+
 ## CustomVideoMixer
 This program shows the basic essentials for implementing a custom video mixer, to be used by a media session.
 
