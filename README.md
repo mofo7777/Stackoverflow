@@ -20,7 +20,7 @@ This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConv
 
 This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API.
 
-In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT.
+In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
 
 ## TranscodeMp4ToMp4
 This program transcode a mp4 video file into a new mp4 file. There is no real encoding process, because output file has the same format as input file.
