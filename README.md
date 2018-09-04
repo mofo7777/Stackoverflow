@@ -14,7 +14,7 @@ In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and 
 
 ## ScreenCaptureEncode
 
-This program takes a screenshot using Directx9, and create a mp4 video file with Mediafoundation API.
+This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API.
 
 In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT.
 
