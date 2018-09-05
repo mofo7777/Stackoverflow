@@ -33,6 +33,8 @@ This program shows how to use an IMFSinkWriterCallback and event to wait for the
 
 This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API. In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
 
+![Screen Capture Encode](./Image/ScreenCaptureEncode.jpg)
+
 ## TranscodeMp4ToMp4
 This program transcode a mp4 video file into a new mp4 file. There is no real encoding process, because output file has the same format as input file.
 The concept was to show how to setup IMFTopologyNode for both audio and video.
