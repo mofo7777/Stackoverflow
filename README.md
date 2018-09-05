@@ -25,7 +25,7 @@ This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConv
 
 ## IMFSinkWriterCallback
 
-todo
+This program shows how to use an IMFSinkWriterCallback and event to wait for the Finalize method on the Sink Writer. The program simply create a mp4 video file with blue frames, using the Sink Writer.
 
 ## ScreenCaptureEncode
 
