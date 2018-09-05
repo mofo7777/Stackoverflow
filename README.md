@@ -17,7 +17,7 @@ Be careful, the width and height of both videos are hardcoded (320x240). See VID
 
 In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and a copy of itself. the two videos use NV12 video format as input. therefore, there is no real alpha mix, but both videos can be displayed next to each other, as the picture below.
 
-![Custom Video Mixer](./Image/CustomVideoMixer.jpg)
+![Custom Video Mixer](./Media/CustomVideoMixer.jpg)
 
 ## FrameRateConverterDSP
 
@@ -27,13 +27,13 @@ This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConv
 
 This program shows how to use an IMFSinkWriterCallback and event to wait for the Finalize method on the Sink Writer. The program simply create a wmv video file with blue frames, using the Sink Writer.
 
-![IMFSinkWriterCallback](./Image/IMFSinkWriterCallback.jpg)
+![IMFSinkWriterCallback](./Media/IMFSinkWriterCallback.jpg)
 
 ## ScreenCaptureEncode
 
 This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API. In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
 
-![Screen Capture Encode](./Image/ScreenCaptureEncode.jpg)
+![Screen Capture Encode](./Media/ScreenCaptureEncode.jpg)
 
 ## TranscodeMp4ToMp4
 This program transcode a mp4 video file into a new mp4 file. There is no real encoding process, because output file has the same format as input file.
