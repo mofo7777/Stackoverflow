@@ -35,7 +35,7 @@ This program shows how to setup EVR (enhanced video renderer), and how to provid
 
 ## MinimalSinkRenderer
 
-This program shows the basic essentials for implementing a custom sink renderer, to be used by a Media Session.
+This program shows the basic essentials for implementing a custom sink renderer, to be used by a Media Session. The stream sink format is MFVideoFormat_RGB32.
 
 ## ScreenCaptureEncode
 
