@@ -33,6 +33,10 @@ This program shows how to use an IMFSinkWriterCallback and event to wait for the
 
 This program shows how to setup EVR (enhanced video renderer), and how to provide video samples to it, using a Source Reader.
 
+## MinimalSinkRenderer
+
+This program shows the basic essentials for implementing a custom sink renderer, to be used by a Media Session.
+
 ## ScreenCaptureEncode
 
 This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API. In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
