@@ -31,7 +31,7 @@ This program shows how to use an IMFSinkWriterCallback and event to wait for the
 
 ## MFVideoEVR
 
-todo
+This program shows how to setup EVR (enhanced video renderer), and how to provide video samples to it, using a Source Reader.
 
 ## ScreenCaptureEncode
 
