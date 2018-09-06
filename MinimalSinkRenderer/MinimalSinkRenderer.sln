@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MinimalSinkRenderer", "MinimalSinkRenderer\MinimalSinkRenderer.vcxproj", "{78024A78-8995-47A3-821A-FDDA40B0D8A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{050C0987-83ED-4019-9CC7-C08B71091EF7}"
+	ProjectSection(SolutionItems) = preProject
+		Common\MFClassFactory.h = Common\MFClassFactory.h
+		Common\MFCriticSection.h = Common\MFCriticSection.h
+		Common\MFGuid.h = Common\MFGuid.h
+		Common\MFLogging.h = Common\MFLogging.h
+		Common\MFLogMediaType.h = Common\MFLogMediaType.h
+		Common\MFMacro.h = Common\MFMacro.h
+		Common\MFRegistry.h = Common\MFRegistry.h
+		Common\MFState.h = Common\MFState.h
+		Common\MFTExternTrace.h = Common\MFTExternTrace.h
+		Common\MFTime.h = Common\MFTime.h
+		Common\MFTrace.h = Common\MFTrace.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestMinimalSinkRenderer", "TestMinimalSinkRenderer\TestMinimalSinkRenderer.vcxproj", "{C404D8DA-ACC9-454C-AE54-E83235C475F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Debug|x64.ActiveCfg = Debug|x64
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Debug|x64.Build.0 = Debug|x64
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Debug|x86.ActiveCfg = Debug|Win32
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Debug|x86.Build.0 = Debug|Win32
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Release|x64.ActiveCfg = Release|x64
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Release|x64.Build.0 = Release|x64
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Release|x86.ActiveCfg = Release|Win32
+		{78024A78-8995-47A3-821A-FDDA40B0D8A5}.Release|x86.Build.0 = Release|Win32
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Debug|x64.ActiveCfg = Debug|x64
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Debug|x64.Build.0 = Debug|x64
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Debug|x86.Build.0 = Debug|Win32
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Release|x64.ActiveCfg = Release|x64
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Release|x64.Build.0 = Release|x64
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Release|x86.ActiveCfg = Release|Win32
+		{C404D8DA-ACC9-454C-AE54-E83235C475F9}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D190FCBF-ABCD-4253-9682-D32ADF6F7FEB}
+	EndGlobalSection
+EndGlobal
