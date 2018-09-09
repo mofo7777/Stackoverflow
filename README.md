@@ -8,7 +8,7 @@ In the programs below, some values are harcoded, like video file path for exampl
 Dont't forget to change them, if you use a different video file, in a different path.
 
 
-## CustomVideoMixer
+## <ins>CustomVideoMixer</ins>
 This program shows the basic essentials for implementing a custom video mixer, to be used by a media session.
 
 You must register the CustomVideoMixer.dll with this command, and with the administrator rights : regsrv32 CustomVideoMixer.dll.
