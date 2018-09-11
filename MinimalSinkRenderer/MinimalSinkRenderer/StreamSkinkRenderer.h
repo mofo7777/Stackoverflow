@@ -4,7 +4,7 @@
 #ifndef STREAMSINKRENDERER_H
 #define STREAMSINKRENDERER_H
 
-class CStreamSkinkRenderer : BaseObject, public IMFStreamSink, public IMFMediaTypeHandler{
+class CStreamSkinkRenderer : public IMFStreamSink, public IMFMediaTypeHandler{
 
 public:
 
