@@ -4,7 +4,7 @@
 #ifndef MINIMALSINKRENDERER_H
 #define MINIMALSINKRENDERER_H
 
-class CMinimalSkinkRenderer : BaseObject, public IMFMediaSink, public IMFClockStateSink{
+class CMinimalSkinkRenderer : public IMFMediaSink, public IMFClockStateSink{
 
 public:
 
