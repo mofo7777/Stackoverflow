@@ -122,7 +122,6 @@ public:
 	// IMFVideoPositionMapper - CustomVideoMixer_Bitmap.cpp
 	STDMETHODIMP MapOutputCoordinateToInputStream(float, float, DWORD, DWORD, float*, float*);
 
-
 private:
 
 	// CustomVideoMixer.cpp
