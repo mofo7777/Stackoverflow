@@ -5,7 +5,6 @@
 #define MFTCUSTOMVIDEOMIXER_H
 
 class CCustomVideoMixer :
-	BaseObject,
 	public IMFVideoDeviceID,
 	public IMFGetService,
 	public IMFTopologyServiceLookupClient,
