@@ -8,6 +8,9 @@ In the programs below, some values are harcoded, like video file path for exampl
 Dont't forget to change them, if you use a different video file, in a different path.
 
 
+## AudioSourceReaderSeek
+This program uses SourceReader to check seek position with audio file.
+
 ## CustomVideoMixer
 This program shows the basic essentials for implementing a custom video mixer, to be used by a media session.
 
