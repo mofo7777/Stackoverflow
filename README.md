@@ -22,6 +22,10 @@ In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and 
 
 ![Custom Video Mixer](./Media/CustomVideoMixer.jpg)
 
+## EncodeWithSourceReaderSinkWriter
+
+Encode a video file using SourceReader and SinkWriter manually.
+
 ## FrameRateConverterDSP
 
 This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConvertDmo), using a Source Reader. You can change the frame rate of a video stream. For example, if the video has 30 fps, you can get 60 fps.
