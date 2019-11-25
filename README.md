@@ -40,6 +40,12 @@ This program shows how to use an IMFSinkWriterCallback and event to wait for the
 
 This program shows how to setup EVR (enhanced video renderer), and how to provide video samples to it, using a Source Reader.
 
+## MFMultiVideo
+
+A program to see if there are memory leaks using 1 to 16 MediaSession.
+
+![MFMultiVideo](./Media/MFMultiVideo.jpg)
+
 ## MinimalSinkRenderer
 
 This program shows the basic essentials for implementing a custom sink renderer, to be used by a Media Session. The stream sink format is MFVideoFormat_RGB32.
