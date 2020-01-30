@@ -22,6 +22,8 @@ Be careful, the width and height of both videos are hardcoded (320x240). See VID
 
 In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and a copy of itself. the two videos use NV12 video format as input. therefore, there is no real alpha mix, but both videos can be displayed next to each other, as the picture below.
 
+stackoverflow question : https://stackoverflow.com/questions/42946608/media-foundation-custom-mixer-mft-getting-error-mf-e-cannot-create-sink
+
 ![Custom Video Mixer](./Media/CustomVideoMixer.jpg)
 
 ## EncodeWithSourceReaderSinkWriter
