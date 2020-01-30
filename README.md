@@ -26,6 +26,8 @@ In this example, I use two identical mp4 files, big_buck_bunny_240p_5mb.mp4 and 
 
 Encode a video file using SourceReader and SinkWriter manually.
 
+stackoverflow question : https://stackoverflow.com/questions/55054531/media-foundation-video-re-encoding-producing-audio-stream-sync-offset
+
 ## FrameRateConverterDSP
 
 This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConvertDmo), using a Source Reader. You can change the frame rate of a video stream. For example, if the video has 30 fps, you can get 60 fps.
