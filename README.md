@@ -41,7 +41,7 @@ This program shows how to use an IMFSinkWriterCallback and event to wait for the
 This program shows how to setup EVR (enhanced video renderer), and how to provide video capture samples to it, using a Source Reader.
 Same as MFVideoEVR, but with video capture card source.
 
-stackoverflow question : https://stackoverflow.com/questions/59616228/webcam-source-to-evr-sink/59672836#59672836
+stackoverflow question : https://stackoverflow.com/questions/59616228/webcam-source-to-evr-sink
 
 ## MFVideoEVR
 
