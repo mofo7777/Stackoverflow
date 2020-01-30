@@ -1,5 +1,5 @@
 # Stackoverflow
-All source codes I've provided on stackoverflow as an answer, usually under tags ms-media-foundation.
+All source codes I've provided on stackoverflow as an answer, usually under tags ms-media-foundation. Most of the source codes here are quick fixes to source code from people asking for help. So be careful, it's not necessarily the most appropriate way to do it. That just answers the question. It' s up to the user to improve the code.
 
 In the programs below, some values are harcoded, like video file path for example :
 
