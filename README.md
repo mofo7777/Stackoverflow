@@ -74,6 +74,8 @@ You must register the MinimalSinkRenderer.dll with this command, and with the ad
 
 This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API. In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
 
+stackoverflow question : https://stackoverflow.com/questions/33753912/directx-screen-capture-and-output-as-video
+
 ![Screen Capture Encode](./Media/ScreenCaptureEncode.jpg)
 
 ## TranscodeMp4ToMp4
