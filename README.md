@@ -72,6 +72,8 @@ This program shows the basic essentials for implementing a custom sink renderer,
 
 You must register the MinimalSinkRenderer.dll with this command, and with the administrator rights : regsrv32 MinimalSinkRenderer.dll.
 
+stackoverflow question : https://stackoverflow.com/questions/52198300/how-to-have-custom-video-media-stream-sink-request-rgb32-frames-in-media-foundat
+
 ## ScreenCaptureEncode
 
 This program takes screenshots using Directx9, and create a mp4 video file with Mediafoundation API. In this example, the video duration is 5 seconds, see VIDEO_FRAME_COUNT to change it.
