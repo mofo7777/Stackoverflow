@@ -34,6 +34,8 @@ stackoverflow question : https://stackoverflow.com/questions/55054531/media-foun
 
 This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConvertDmo), using a Source Reader. You can change the frame rate of a video stream. For example, if the video has 30 fps, you can get 60 fps.
 
+stackoverflow question : https://stackoverflow.com/questions/8412343/how-to-use-frame-rate-convertor-dmo-in-mf-app
+
 ## IMFSinkWriterCallback
 
 This program shows how to use an IMFSinkWriterCallback and event to wait for the Finalize method on the Sink Writer. The program simply create a wmv video file with blue frames, using the Sink Writer.
