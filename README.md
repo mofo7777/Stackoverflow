@@ -52,6 +52,8 @@ Same as MFVideoCaptureEVR, but with video file source.
 
 A program to see if there are memory leaks using 1 to 16 MediaSession.
 
+stackoverflow question : https://stackoverflow.com/questions/58912803/media-foundation-multiple-videos-playback-results-in-memory-leak-crash-after-u
+
 ![MFMultiVideo](./Media/MFMultiVideo.jpg)
 
 ## MinimalSinkRenderer
