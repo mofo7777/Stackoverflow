@@ -91,3 +91,5 @@ The concept was to show how to setup IMFTopologyNode for both audio and video.
 ## VideoStabilizationMFT
 
 Using the Video Stabilization MFT with Source Reader and Sink Writer.
+
+stackoverflow question : https://stackoverflow.com/questions/59471641/trying-to-use-a-mft-in-media-foundation-encoding
