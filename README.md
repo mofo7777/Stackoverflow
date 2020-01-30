@@ -38,6 +38,8 @@ This program shows how to use the Frame Rate Converter DSP (CLSID_CFrameRateConv
 
 This program shows how to use an IMFSinkWriterCallback and event to wait for the Finalize method on the Sink Writer. The program simply create a wmv video file with blue frames, using the Sink Writer.
 
+stackoverflow question : https://stackoverflow.com/questions/34189440/imfsinkwritercallback-never-happens
+
 ![IMFSinkWriterCallback](./Media/IMFSinkWriterCallback.jpg)
 
 ## MFVideoCaptureEVR
