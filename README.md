@@ -52,6 +52,8 @@ stackoverflow question : https://stackoverflow.com/questions/59616228/webcam-sou
 This program shows how to setup EVR (enhanced video renderer), and how to provide video samples to it, using a Source Reader.
 Same as MFVideoCaptureEVR, but with video file source.
 
+stackoverflow question : https://stackoverflow.com/questions/32739558/media-foundation-evr-no-video-displaying
+
 ## MFMultiVideo
 
 A program to see if there are memory leaks using 1 to 16 MediaSession.
