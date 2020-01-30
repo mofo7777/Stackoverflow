@@ -11,6 +11,8 @@ Dont't forget to change them, if you use a different video file, in a different 
 ## AudioSourceReaderSeek
 This program uses SourceReader to check seek position with audio file.
 
+stackoverflow question : https://stackoverflow.com/questions/49739170/imfsourcereader-m4a-audio-accurate-frame-seek
+
 ## CustomVideoMixer
 This program shows the basic essentials for implementing a custom video mixer, to be used by a media session.
 
