@@ -95,3 +95,9 @@ stackoverflow question : https://stackoverflow.com/questions/52025546/configurin
 Using the Video Stabilization MFT with Source Reader and Sink Writer.
 
 stackoverflow question : https://stackoverflow.com/questions/59471641/trying-to-use-a-mft-in-media-foundation-encoding
+
+## WasapiCapture
+
+A program to capture sound with Wasapi, and record the captured audio in a wav file. Handle PCM format and Extensible Format.
+
+stackoverflow question : https://stackoverflow.com/questions/59483071/trying-to-create-a-wav-file-with-capturing-a-stream-from-win32-wasapi-c
